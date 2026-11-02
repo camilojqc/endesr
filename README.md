@@ -1,5 +1,7 @@
 # endesr
 
+[![R-CMD-check](https://github.com/camilojqc/endesr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/camilojqc/endesr/actions/workflows/R-CMD-check.yaml)
+
 **`endesr`** es un paquete de R que facilita la descarga y carga de microdatos de la **Encuesta Demográfica y de Salud Familiar (ENDES)**, producida por el **Instituto Nacional de Estadística e Informática (INEI) del Perú**. Permite seleccionar años y módulos sin descargar manualmente los archivos desde el portal de microdatos.
 
 Los datos se descargan en formato SPSS (`.sav`) a un directorio temporal y se cargan como objetos en la sesión de R. Al finalizar la ejecución, el paquete elimina los archivos temporales utilizados; **no se guardan copias permanentes de las bases en el proyecto**.
