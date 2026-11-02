@@ -86,7 +86,13 @@ Para conocer los argumentos de una función, consulta su documentación en R:
 
 ## Fuente de datos y alcance
 
-Los microdatos provienen del [portal de microdatos del INEI](https://proyectos.inei.gob.pe/microdatos/). **`endesr` es un desarrollo independiente, no oficial y sin afiliación con el INEI**; busca facilitar el acceso a los archivos.
+- Los microdatos provienen del [portal de microdatos del INEI](https://proyectos.inei.gob.pe/microdatos/). **`endesr` es un desarrollo independiente, no oficial y sin afiliación con el INEI**; busca facilitar el acceso a los archivos de datos.
+- Los códigos de encuesta y la numeración de módulos se obtuvieron del catálogo de
+  [inei-microdatos](https://github.com/fiorellarmartins/inei-microdatos), de Fiorella Ramírez Martins.
+
+## Créditos
+
+- Se tomó como inspiración la función [enaho::descargar.inei()](https://cran.r-project.org/package=enaho).
 
 ## Licencia y contribuciones
 
