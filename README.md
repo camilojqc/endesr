@@ -1,4 +1,4 @@
-# endesr
+# endesr <img src="man/figures/logo.png" align="right" height="120" alt="Logo de endesr" />
 
 [![R-CMD-check](https://github.com/camilojqc/endesr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/camilojqc/endesr/actions/workflows/R-CMD-check.yaml)
 
@@ -92,7 +92,7 @@ Para conocer los argumentos de una función, consulta su documentación en R:
 
 ## Créditos
 
-- Se tomó como inspiración la función [enaho::descargar.inei()](https://cran.r-project.org/package=enaho).
+- Se tomó como inspiración la función [enaho::descargar.inei()](https://cran.r-project.org/package=enaho) disponible en CRAN.
 
 ## Licencia y contribuciones
 
