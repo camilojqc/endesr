@@ -1,0 +1,21 @@
+Package: endesr
+Title: Cargar Microdatos de la ENDES del INEI
+Version: 0.1.0
+Authors@R:
+    person("Camilo", "Quintana", email = "camilojqc95@gmail.com",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9139-1427"))
+Description: Facilita la descarga y carga en R de los microdatos de la
+    Encuesta Demográfica y de Salud Familiar (ENDES) del Instituto Nacional
+    de Estadística e Informática (INEI) del Perú, mediante la selección
+    de años y módulos.
+License: MIT + file LICENSE
+URL: https://github.com/camilojqc/endesr
+BugReports: https://github.com/camilojqc/endesr/issues
+Encoding: UTF-8
+Imports:
+    haven,
+    tools,
+    utils
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
